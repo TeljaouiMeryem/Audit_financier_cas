@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orientech SA – Étude de cas d’audit financier</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f0f0f0;margin:20px;font-size:16px}
+h1{color:darkblue;text-align:center}
+h2{color:darkblue;border-bottom:2px solid darkblue}
+h3{color:#333}
+.equipe{display:flex;gap:15px;justify-content:center;flex-wrap:wrap;margin:15px 0}
+.box{border:2px solid darkblue;background:white;padding:10px 20px;text-align:center;min-width:280px}
+.menu{text-align:center;margin:10px 0}
+section{background:white;border:1px solid gray;padding:15px;margin:15px 0}
+table{border-collapse:collapse;width:100%;margin:8px 0}
+th,td{border:1px solid black;padding:5px;text-align:left;vertical-align:top}
+th{background:#ddd}
+.n{text-align:right}
+.t td{font-weight:bold;background:#eee}
+.g2{display:flex;gap:15px;flex-wrap:wrap}
+.g2 table{flex:1;min-width:300px}
+.q{background:#ffffcc;border:1px solid #cc9;padding:8px;margin:10px 0}
+.rv{background:green;color:white;border:none;padding:8px 14px;cursor:pointer;font-size:15px}
+.sb{display:none;background:#e6ffe6;border:1px solid green;padding:8px;margin-top:6px}
+.sol.open .sb{display:block}
+.bad{color:red;font-weight:bold}
+.ok{color:green;font-weight:bold}
+.note{font-size:13px;color:gray}
+footer{text-align:center;color:gray;font-size:13px}
+</style>
+</head>
+<body>
+<h1>Orientech SA : étude de cas d’audit financier</h1>
+<p style="text-align:center">La démarche d’audit financier : de la planification à la formulation de l’opinion</p>
+<div class="equipe">
+<div class="box"><b>Présenté par :</b><br>Teljaoui Meryem<br>Razougui Aya<br> Ait oubel Farah <br> Azzouz Salma</div>
+<div class="box"><b>Supervisé par :</b><br><br>La Maîtresse de conférence habilitée<br>Mme. Ouriachi Nisrine</div>
+</div>
+<p class="menu">Aller à : <a href="#s1">1. Entreprise</a> | <a href="#s2">2. Démarche</a> | <a href="#s3">3. Synthèse</a> | <a href="#s4">4. Opinion</a> | <a href="#s5">5. Conclusion</a><br><br><button id="all" type="button" class="rv">Afficher toutes les solutions</button></p>
+<div>
+
+<section id="s1">
+<h2>1. Présentation de l’entreprise fictive</h2>
+<p class="sub">Données de l’énoncé (montants en millions de MAD, M).</p>
+<table>
+<tr><th>Dénomination</th><td>Orientech SA</td></tr>
+<tr><th>Localisation</th><td>Technopole d'Oujda, région de l'Oriental, Maroc.</td></tr>
+<tr><th>Secteur d'activité</th><td>Technologies de l'information et services numériques.</td></tr>
+<tr><th>Activités principales</th><td>Développement de logiciels et applications mobiles.
+
+
+
+Conception de sites web et plateformes e-commerce.
+
+
+
+Maintenance et assistance informatique.
+
+
+
+Solutions de transformation numérique pour les entreprises.
+
+
+
+Vente de matériel et équipements informatiques.</td></tr>
+<tr><th>Taille</th><td>Chiffre d’affaires 40 M, 60 salariés (ingénieurs et techniciens), total bilan 45 M.</td></tr>
+</table>
+<div class="g2">
+<table>
+<tr><th colspan="2">Bilan – Actif (CGNC)</th></tr>
+<tr><td>Immobilisations incorporelles (dont R&amp;D 3,0)</td><td class="n">5,0</td></tr>
+<tr><td>Immobilisations corporelles</td><td class="n">12,0</td></tr>
+<tr><td>Immobilisations financières</td><td class="n">1,0</td></tr>
+<tr class="t"><td>Actif immobilisé</td><td class="n">18,0</td></tr>
+<tr><td>Clients et comptes rattachés</td><td class="n">15,0</td></tr>
+<tr><td>Autres débiteurs et État (TVA récupérable)</td><td class="n">4,0</td></tr>
+<tr class="t"><td>Actif circulant (hors trésorerie)</td><td class="n">19,0</td></tr>
+<tr class="t"><td>Trésorerie-actif</td><td class="n">8,0</td></tr>
+<tr class="t"><td>Total actif</td><td class="n">45,0</td></tr>
+</table>
+<table>
+<tr><th colspan="2">Bilan – Passif (CGNC)</th></tr>
+<tr><td>Capital social</td><td class="n">10,0</td></tr>
+<tr><td>Réserves</td><td class="n">7,0</td></tr>
+<tr><td>Résultat net de l’exercice</td><td class="n">3,0</td></tr>
+<tr class="t"><td>Capitaux propres</td><td class="n">20,0</td></tr>
+<tr><td>Dettes de financement (emprunts bancaires)</td><td class="n">10,0</td></tr>
+<tr class="t"><td>Financement permanent</td><td class="n">30,0</td></tr>
+<tr><td>Fournisseurs et comptes rattachés</td><td class="n">7,0</td></tr>
+<tr><td>Personnel, CNSS, État (IS, TVA) et autres créanciers</td><td class="n">6,0</td></tr>
+<tr><td>Comptes de régularisation-passif</td><td class="n">2,0</td></tr>
+<tr class="t"><td>Passif circulant</td><td class="n">15,0</td></tr>
+<tr class="t"><td>Total passif (trésorerie-passif : 0)</td><td class="n">45,0</td></tr>
+</table>
+</div>
+<table>
+<tr><th colspan="2">Compte de produits et charges (CPC)</th></tr>
+<tr><td>Ventes de biens et services produits (chiffre d’affaires)</td><td class="n">40,0</td></tr>
+<tr><td>Immobilisations produites par l’entreprise pour elle-même (frais de développement)</td><td class="n">2,5</td></tr>
+<tr><td>Reprises d’exploitation</td><td class="n">0,5</td></tr>
+<tr class="t"><td>Produits d’exploitation</td><td class="n">43,0</td></tr>
+<tr><td>Achats consommés (licences, hébergement, sous-traitance)</td><td class="n">8,5</td></tr>
+<tr><td>Autres charges externes</td><td class="n">4,5</td></tr>
+<tr><td>Impôts et taxes</td><td class="n">0,6</td></tr>
+<tr><td>Charges de personnel</td><td class="n">20,0</td></tr>
+<tr><td>Dotations d’exploitation</td><td class="n">4,5</td></tr>
+<tr class="t"><td>Charges d’exploitation</td><td class="n">38,1</td></tr>
+<tr class="t"><td>Résultat d’exploitation</td><td class="n">4,9</td></tr>
+<tr><td>Résultat financier (produits 0,3 – charges 0,8)</td><td class="n">-0,5</td></tr>
+<tr><td>Résultat non courant (produits 0,2 – charges 0,6)</td><td class="n">-0,4</td></tr>
+<tr><td>Résultat avant impôts</td><td class="n">4,0</td></tr>
+<tr><td>Impôt sur les résultats</td><td class="n">1,0</td></tr>
+<tr class="t"><td>Résultat net</td><td class="n">3,0</td></tr>
+</table>
+<div class="q"><b>Questions</b>
+<ol><li>Calculez la valeur ajoutée, l’excédent brut d’exploitation (EBE) et la capacité d’autofinancement (CAF) de l’ESG.</li>
+<li>Précisez le contexte et les objectifs de la mission.</li></ol></div>
+<div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
+<table>
+<tr><td>Production de l’exercice : 40,0 + 2,5</td><td class="n">42,5</td></tr>
+<tr><td>Consommation de l’exercice : 8,5 + 4,5</td><td class="n">13,0</td></tr>
+<tr class="t"><td>Valeur ajoutée</td><td class="n">29,5</td></tr>
+<tr class="t"><td>EBE : 29,5 – 0,6 (impôts et taxes) – 20,0 (personnel)</td><td class="n">8,9</td></tr>
+<tr><td>Résultat d’exploitation : 8,9 + 0,5 (reprises) – 4,5 (dotations)</td><td class="n">4,9</td></tr>
+<tr class="t"><td>CAF : résultat net 3,0 + dotations 4,5 – reprises 0,5</td><td class="n">7,0</td></tr>
+</table>
+<p><b>Contexte :</b> mission légale de certification des comptes d’une SA. <b>Objectifs :</b> obtenir une assurance raisonnable que les états de synthèse ne comportent pas d’anomalies significatives, puis émettre le rapport et l’attestation de certification.</p>
+</div></div>
+</section>
+
+<section id="s2">
+<h2>2. Application de la démarche d’audit</h2>
+<p class="sub">Planification, évaluation des risques, contrôle interne, puis tests.</p>
+
+<h3>2.1 Seuil de signification</h3>
+<div class="q"><p>Déterminez le seuil de signification, le seuil d’exécution et le seuil de remontée des anomalies.</p></div>
+<div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
+<ul><li>Base retenue : le chiffre d’affaires (40 M), plus stable que le résultat. Seuil de signification : 1 % = <b>0,40 M</b>.</li>
+<li>Seuil d’exécution : 75 % = <b>0,30 M</b>. Seuil de remontée : 5 % du seuil = <b>0,02 M</b>.</li>
+<li>Contrôle de vraisemblance : 0,40 M représente 10 % du résultat avant impôts (4,0 M) et moins de 1 % du total actif.</li></ul>
+</div></div>
+
+<h3>2.2 Risques significatifs</h3>
+<div class="q"><p>Identifiez les risques significatifs d’une société d’édition de logiciels dont les clients sont en grande partie publics.</p></div>
+<div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
+<table>
+<tr><th>Risque</th><th>Assertion</th><th>Réponse d’audit</th></tr>
+<tr><td>Revenu constaté avant livraison ou recette (marchés publics, projets)</td><td>Séparation des exercices, réalité</td><td>Test de cut-off sur les PV de recette</td></tr>
+<tr><td>Activation de frais de développement sans critères remplis</td><td>Existence, évaluation</td><td>Revue des projets et des feuilles de temps</td></tr>
+<tr><td>Recouvrement des créances (retenues de garantie, clients en difficulté)</td><td>Évaluation</td><td>Circularisation, analyse de l’ancienneté</td></tr>
+<tr><td>Outrepassement des contrôles par la direction</td><td>Toutes</td><td>Test des écritures manuelles</td></tr>
+<tr><td>Conformité fiscale et sociale (IS, TVA, CNSS)</td><td>Exhaustivité des dettes</td><td>Rapprochement déclarations / comptabilité</td></tr>
+</table></div></div>
+
+<h3>2.3 Évaluation du contrôle interne</h3>
+<table>
+<tr><th>Cycle</th><th>Constat de l’auditeur</th></tr>
+<tr><td>Ventes et facturation</td><td>La facture est émise à la signature du bon de commande, sans rapprochement avec le PV de recette.</td></tr>
+<tr><td>Développement</td><td>Les temps sont suivis par équipe et non par projet. La direction décide seule d’activer.</td></tr>
+<tr><td>Achats</td><td>Commande, réception et paiement sont séparés, avec double validation.</td></tr>
+<tr><td>Paie</td><td>Déclarations CNSS mensuelles rapprochées de la paie.</td></tr>
+<tr><td>Systèmes d’information</td><td>Sauvegardes quotidiennes, mais droits d’accès jamais revus.</td></tr>
+</table>
+<div class="q"><p>Évaluez chaque cycle (faible, moyen, satisfaisant) et indiquez l’effet sur l’audit.</p></div>
+<div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
+<table>
+<tr><th>Cycle</th><th>Évaluation</th><th>Conséquence</th></tr>
+<tr><td>Ventes et facturation</td><td class="bad">Faible</td><td>Tests de substance étendus, pas de confiance dans le contrôle</td></tr>
+<tr><td>Développement</td><td class="bad">Moyen à faible</td><td>Revue détaillée de chaque projet activé</td></tr>
+<tr><td>Achats, paie</td><td class="ok">Satisfaisant</td><td>Tests de procédures puis sondages réduits</td></tr>
+<tr><td>Systèmes d’information</td><td>Moyen</td><td>Revue des accès aux applications comptables</td></tr>
+</table></div></div>
+
+<h3>2.4 Sélection des cycles à auditer</h3>
+<div class="q"><p>Quels cycles retenez-vous, et lesquels sont traités par des procédures allégées ?</p></div>
+<div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
+<p><b>Cycles approfondis :</b> ventes-clients (risque élevé, contrôle faible), immobilisations incorporelles (jugement de la direction), achats-fournisseurs (exhaustivité des charges). <b>Procédures allégées :</b> paie (contrôle satisfaisant) et trésorerie (confirmation bancaire et rapprochements).</p>
+</div></div>
+
+<h3>2.5 Tests d’audit sur des opérations comptables</h3>
+<p><b>Test A, cut-off des ventes : factures de fin décembre N</b></p>
+<table>
+<tr><th>Facture</th><th>Client</th><th>Date</th><th class="n">Montant (M)</th><th>PV de recette</th></tr>
+<tr><td>F-1201</td><td>Collectivité territoriale</td><td>28/12/N</td><td class="n">0,25</td><td>12/01/N+1</td></tr>
+<tr><td>F-1203</td><td>Établissement public</td><td>29/12/N</td><td class="n">0,15</td><td>20/01/N+1</td></tr>
+<tr><td>F-1207</td><td>Banque</td><td>30/12/N</td><td class="n">0,20</td><td>30/01/N+1</td></tr>
+<tr><td>F-1190</td><td>PME</td><td>20/12/N</td><td class="n">0,40</td><td>22/12/N</td></tr>
+<tr><td>F-1195</td><td>PME</td><td>23/12/N</td><td class="n">0,30</td><td>29/12/N</td></tr>
+</table>
+<p><b>Test B, frais de développement activés en N (production immobilisée : 2,5 M)</b></p>
+<table>
+<tr><th>Projet</th><th class="n">Coût activé (M)</th><th>Situation à la clôture</th></tr>
+<tr><td>P1 – Module de gestion communale</td><td class="n">0,9</td><td>En cours, faisabilité et financement démontrés</td></tr>
+<tr><td>P2 – Application de téléservices</td><td class="n">0,7</td><td>En cours, contrat signé avec un client</td></tr>
+<tr><td>P3 – Module de paiement mobile</td><td class="n">0,5</td><td>Abandonné en octobre N</td></tr>
+<tr><td>P4 – Plateforme de veille sectorielle</td><td class="n">0,4</td><td>Abandonnée en décembre N (étude de marché négative)</td></tr>
+</table>
+<p><b>Test C, créances clients et charges</b></p>
+<table>
+<tr><th>Élément</th><th class="n">Montant (M)</th><th>Constat</th></tr>
+<tr><td>Client F (société privée)</td><td class="n">0,30</td><td>Facturé depuis plus de 12 mois, redressement judiciaire ouvert en novembre N, aucune provision</td></tr>
+<tr><td>Client G (collectivité)</td><td class="n">0,80</td><td>À 90 jours, confirmé par circularisation</td></tr>
+<tr><td>Facture d’hébergement cloud du 4e trimestre</td><td class="n">0,015</td><td>Reçue le 10/01/N+1, non comptabilisée en N</td></tr>
+</table>
+<div class="q"><p>Pour chaque test, identifiez les anomalies et analysez leurs conséquences sur les états de synthèse.</p></div>
+<div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
+<ul>
+<li><b>A, cut-off :</b> F-1201, F-1203 et F-1207 sont facturées en N mais recettées en N+1 : <span class="bad">0,25 + 0,15 + 0,20 = 0,60 M</span> de produits comptabilisés trop tôt. Chiffre d’affaires et résultat surévalués, passif circulant sous-évalué.</li>
+<li><b>B, développement :</b> P3 et P4 sont abandonnés, donc ne remplissent plus les critères d’activation : <span class="bad">0,5 + 0,4 = 0,90 M</span> à passer en charges. Actif immobilisé et résultat surévalués.</li>
+<li><b>C, créances :</b> le Client F est douteux sans provision : <span class="bad">0,30 M</span> de créance surévaluée. Le client G n’appelle aucune provision.</li>
+<li><b>C, charges :</b> la facture d’hébergement du 4e trimestre est omise : <span class="bad">0,015 M</span> de charges et de dettes manquantes.</li></ul>
+</div></div>
+</section>
+
+<section id="s3">
+<h2>3. Synthèse des résultats</h2>
+<p class="sub">Tableau des anomalies, corrections et incidence sur les états de synthèse.</p>
+<div class="q"><p>1. Dressez le tableau récapitulatif et jugez le caractère significatif. 2. Proposez les écritures de correction (CGNC). 3. Mesurez l’incidence des anomalies non corrigées.</p>
+<p class="note">La direction accepte de corriger A1 et A4, mais refuse A2 et A3.</p></div>
+<div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
+<h3>Tableau récapitulatif (seuil 0,40 M)</h3>
+<table>
+<tr><th>Réf.</th><th>Anomalie</th><th class="n">M</th><th>Significative ?</th><th>Direction</th></tr>
+<tr><td>A1</td><td>Produits comptabilisés avant la recette (cut-off)</td><td class="n">0,60</td><td class="bad">Oui, supérieure au seuil</td><td>Corrige</td></tr>
+<tr><td>A2</td><td>Frais de développement de projets abandonnés</td><td class="n">0,90</td><td class="bad">Oui, supérieure au seuil</td><td>Refuse</td></tr>
+<tr><td>A3</td><td>Créance douteuse non provisionnée</td><td class="n">0,30</td><td>Non seule, oui cumulée avec A2</td><td>Refuse</td></tr>
+<tr><td>A4</td><td>Charge à payer omise</td><td class="n">0,015</td><td class="ok">Non, inférieure à 0,02 M</td><td>Corrige</td></tr>
+</table>
+<h3>Écritures de correction</h3>
+<table>
+<tr><th>Réf.</th><th>Débit</th><th>Crédit</th><th class="n">M</th></tr>
+<tr><td>A1</td><td>712 Ventes de biens et services produits</td><td>4491 Produits constatés d’avance</td><td class="n">0,60</td></tr>
+<tr><td>A2</td><td>658 Autres charges non courantes</td><td>221 Immobilisations en recherche et développement</td><td class="n">0,90</td></tr>
+<tr><td>A3</td><td>6196 Dotations d’exploitation aux provisions pour dépréciation de l’actif circulant</td><td>3942 Provisions pour dépréciation des clients</td><td class="n">0,30</td></tr>
+<tr><td>A4</td><td>612 Charges externes (hébergement)</td><td>4417 Fournisseurs, factures non parvenues</td><td class="n">0,015</td></tr>
+</table>
+<p class="note">Numéros de comptes à vérifier avec votre plan comptable. Montants avant effet fiscal.</p>
+<h3>Incidence des anomalies non corrigées (A2 + A3 = 1,2 M)</h3>
+<table>
+<tr><th>Agrégat</th><th class="n">Publié (M)</th><th class="n">Si corrigé (M)</th><th class="n">Écart</th></tr>
+<tr><td>Actif immobilisé</td><td class="n">18,0</td><td class="n">17,1</td><td class="n">-5,0 %</td></tr>
+<tr><td>Clients</td><td class="n">15,0</td><td class="n">14,7</td><td class="n">-2,0 %</td></tr>
+<tr><td>Total bilan</td><td class="n">45,0</td><td class="n">43,8</td><td class="n">-2,7 %</td></tr>
+<tr><td>Capitaux propres</td><td class="n">20,0</td><td class="n">18,8</td><td class="n">-6,0 %</td></tr>
+<tr><td>Résultat net</td><td class="n">3,0</td><td class="n">1,8</td><td class="n">-40 %</td></tr>
+</table>
+<p>1,2 M = <b>trois fois le seuil</b> et 3 % du chiffre d’affaires. L’effet touche deux rubriques seulement, sans rendre le résultat négatif : il est significatif mais non diffus. Les ajustements acceptés (A1, A4) ramènent déjà le résultat net à environ 2,4 M, de sorte que 1,2 M pèse alors 50 % du résultat ajusté.</p>
+</div></div>
+</section>
+
+<section id="s4">
+<h2>4. Formulation de l’opinion d’audit</h2>
+<p class="sub">Quatre opinions possibles, une seule adaptée au cas.</p>
+<table>
+<tr><th>Opinion (terme marocain)</th><th>Quand l’émettre ?</th></tr>
+<tr><td>Opinion sans réserve (certification sans réserve)</td><td>Aucune anomalie significative non corrigée.</td></tr>
+<tr><td>Opinion avec réserve (certification avec réserve)</td><td>Anomalie significative mais non diffuse, ou limitation significative mais non diffuse.</td></tr>
+<tr><td>Opinion défavorable (refus de certifier)</td><td>Anomalies significatives et diffuses.</td></tr>
+<tr><td>Impossibilité d’exprimer une opinion (impossibilité de certifier)</td><td>Éléments probants insuffisants, effets possibles significatifs et diffus.</td></tr>
+</table>
+<div class="q"><p>Quelle opinion retenez-vous pour Orientech ? Justifiez, puis rédigez le fondement de l’opinion. Que changerait chaque scénario alternatif ?</p></div>
+<div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
+<p><b>Opinion retenue : certification avec réserve</b> (désaccord sur les comptes).</p>
+<ul><li>Les anomalies A2 et A3 (1,2 M) dépassent le seuil de 0,40 M : elles sont <b>significatives</b>.</li>
+<li>Elles se limitent à deux rubriques (immobilisations incorporelles et clients) : elles ne sont pas <b>diffuses</b>, donc pas d’opinion défavorable.</li>
+<li>L’audit s’est déroulé sans limitation : pas d’impossibilité de certifier.</li></ul>
+<h3>Rédaction (extrait du rapport)</h3>
+<p><i>Fondement de l’opinion avec réserve.</i> Les états de synthèse incluent 0,9 M de frais de développement relatifs à des projets abandonnés, qui auraient dû être comptabilisés en charges, et ne comportent aucune provision sur une créance de 0,3 M détenue sur un client en redressement judiciaire. Si ces ajustements avaient été comptabilisés, l’actif immobilisé, les créances et les capitaux propres auraient diminué de 1,2 M, et le résultat net de l’exercice serait ramené de 3,0 M à 1,8 M (avant effet fiscal).</p>
+<p><i>Opinion.</i> Sous cette réserve, nous estimons que les états de synthèse sont réguliers et sincères et donnent, dans tous leurs aspects significatifs, une image fidèle du résultat des opérations de l’exercice écoulé ainsi que de la situation financière et du patrimoine d’Orientech SA à la fin de cet exercice, conformément au CGNC.</p>
+<table>
+<tr><th>Scénario alternatif</th><th>Opinion</th></tr>
+<tr><td>La direction corrige aussi A2 et A3</td><td class="ok">Sans réserve</td></tr>
+<tr><td>Anomalies de 6 M réparties sur la plupart des rubriques</td><td class="bad">Défavorable</td></tr>
+<tr><td>Feuilles de temps et dossiers de projets refusés à l’auditeur, effets potentiels diffus</td><td class="bad">Impossibilité d’exprimer une opinion</td></tr>
+</table>
+</div></div>
+</section>
+
+<section id="s5">
+<h2>5. Conclusion générale</h2>
+<div class="q"><p>Faites le bilan de la mission, présentez les limites de l’audit financier et l’importance de la démarche dans la certification des comptes.</p></div>
+<div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
+<ul><li><b>Bilan :</b> la démarche (seuil, risques, contrôle interne, tests) a révélé quatre anomalies pour 1,815 M. Deux ont été corrigées, deux, soit 1,2 M, motivent la réserve.</li>
+<li><b>Limites :</b> audit par sondages, jugement professionnel, contrôle interne imparfait et fraudes parfois dissimulées. L’auditeur donne une assurance raisonnable, non absolue.</li>
+<li><b>Importance :</b> la démarche structurée fonde l’opinion, renforce la confiance des banques, de l’administration fiscale et des actionnaires dans les états de synthèse, et améliore le contrôle interne de l’entreprise.</li></ul>
+</div></div>
+</section>
+</div>
+<footer>Cas fictif à usage pédagogique. Orientech SA n’existe pas.</footer>
+<script>
+function basculer(s,v){
+ s.classList.toggle('open',v);
+ s.querySelector('.rv').textContent=v?'Cacher la solution':'Voir la solution';
+}
+var boutons=document.querySelectorAll('.sol .rv');
+for(var i=0;i<boutons.length;i++){
+ boutons[i].onclick=function(){
+  var s=this.parentNode;
+  basculer(s,!s.classList.contains('open'));
+ };
+}
+var tout=false;
+document.getElementById('all').onclick=function(){
+ tout=!tout;
+ var sols=document.querySelectorAll('.sol');
+ for(var i=0;i<sols.length;i++){basculer(sols[i],tout);}
+ this.textContent=tout?'Cacher toutes les solutions':'Afficher toutes les solutions';
+};
+</script>
+</body>
+</html>
