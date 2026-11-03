@@ -138,7 +138,7 @@ Vente de matériel et équipements informatiques.</td></tr>
 <div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
 <ul><li>Base retenue : le chiffre d’affaires (40 M), plus stable que le résultat. Seuil de signification : 1 % = <b>0,40 M</b>.</li>
 <li>Seuil d’exécution : 75 % = <b>0,30 M</b>. Seuil de remontée : 5 % du seuil = <b>0,02 M</b>.</li>
-<li>Contrôle de vraisemblance : 0,40 M représente 10 % du résultat avant impôts (4,0 M) et moins de 1 % du total actif.</li></ul>
+<li>Contrôle de vraisemblance : 0,40 M représente 10 % du résultat avant impôts (4,0 M) et moins de 1 % du total actif (45,0 M)</li></ul>
 </div></div>
 
 <h3>2.2 Risques significatifs</h3>
@@ -146,18 +146,18 @@ Vente de matériel et équipements informatiques.</td></tr>
 <div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
 <table>
 <tr><th>Risque</th><th>Assertion</th><th>Réponse d’audit</th></tr>
-<tr><td>Revenu constaté avant livraison ou recette (marchés publics, projets)</td><td>Séparation des exercices, réalité</td><td>Test de cut-off sur les PV de recette</td></tr>
-<tr><td>Activation de frais de développement sans critères remplis</td><td>Existence, évaluation</td><td>Revue des projets et des feuilles de temps</td></tr>
-<tr><td>Recouvrement des créances (retenues de garantie, clients en difficulté)</td><td>Évaluation</td><td>Circularisation, analyse de l’ancienneté</td></tr>
-<tr><td>Outrepassement des contrôles par la direction</td><td>Toutes</td><td>Test des écritures manuelles</td></tr>
-<tr><td>Conformité fiscale et sociale (IS, TVA, CNSS)</td><td>Exhaustivité des dettes</td><td>Rapprochement déclarations / comptabilité</td></tr>
+<tr><td>chiffre d'affaires comptabilisé avant la livraison</td><td>Séparation des exercices, réalité</td><td>vérifier le procès-verbal de recette</td></tr>
+<tr><td>activation abusive des frais de développement</td><td>Existence, évaluation</td><td>Revue des projets et des feuilles de temps</td></tr>
+<tr><td>créances clients non recouvrables</td><td>Évaluation</td><td>Circularisation, Examiner les encaissements postérieurs à la clôture.</td></tr>
+<tr><td>intervention excessive de la direction</td><td>Toutes</td><td>Test des écritures manuelles</td></tr>
+<tr><td>non-conformité fiscale et sociale</td><td>Exhaustivité des dettes</td><td>Rapprochement déclarations / comptabilité</td></tr>
 </table></div></div>
 
 <h3>2.3 Évaluation du contrôle interne</h3>
 <table>
 <tr><th>Cycle</th><th>Constat de l’auditeur</th></tr>
-<tr><td>Ventes et facturation</td><td>La facture est émise à la signature du bon de commande, sans rapprochement avec le PV de recette.</td></tr>
-<tr><td>Développement</td><td>Les temps sont suivis par équipe et non par projet. La direction décide seule d’activer.</td></tr>
+<tr><td>Ventes</td><td>La facture est émise à la signature du bon de commande, sans rapprochement avec le PV de recette.</td></tr>
+<tr><td>immobilisations </td><td>Les temps sont suivis par équipe et non par projet. La direction décide seule d’activer.</td></tr>
 <tr><td>Achats</td><td>Commande, réception et paiement sont séparés, avec double validation.</td></tr>
 <tr><td>Paie</td><td>Déclarations CNSS mensuelles rapprochées de la paie.</td></tr>
 <tr><td>Systèmes d’information</td><td>Sauvegardes quotidiennes, mais droits d’accès jamais revus.</td></tr>
@@ -166,20 +166,21 @@ Vente de matériel et équipements informatiques.</td></tr>
 <div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
 <table>
 <tr><th>Cycle</th><th>Évaluation</th><th>Conséquence</th></tr>
-<tr><td>Ventes et facturation</td><td class="bad">Faible</td><td>Tests de substance étendus, pas de confiance dans le contrôle</td></tr>
-<tr><td>Développement</td><td class="bad">Moyen à faible</td><td>Revue détaillée de chaque projet activé</td></tr>
-<tr><td>Achats, paie</td><td class="ok">Satisfaisant</td><td>Tests de procédures puis sondages réduits</td></tr>
-<tr><td>Systèmes d’information</td><td>Moyen</td><td>Revue des accès aux applications comptables</td></tr>
+<tr><td>Ventes</td><td class="bad">Faible</td><td>Il ne peut pas faire confiance à cette procédure. Il doit donc effectuer davantage de contrôles directs sur les factures, les contrats et les PV de recette.</td></tr>
+<tr><td>immobilisations</td><td class="bad">Moyen à faible</td><td>examiner individuellement les projets immobilisés, les feuilles de temps, les contrats et les dépenses correspondantes.</td></tr>
+<tr><td>Achats, paie</td><td class="ok">Satisfaisant</td><td>Tests de procédures puis sondages réduits.</td></tr>
+<tr><td>Systèmes d’information</td><td>Moyen</td><td>Il doit vérifier les utilisateurs ayant accès aux applications comptables, les autorisations accordées et les éventuelles modifications inhabituelles.</td></tr>
 </table></div></div>
 
 <h3>2.4 Sélection des cycles à auditer</h3>
-<div class="q"><p>Quels cycles retenez-vous, et lesquels sont traités par des procédures allégées ?</p></div>
+<div class="q"><p>Quels cycles retenez-vous ?</p></div>
 <div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
-<p><b>Cycles approfondis :</b> ventes-clients (risque élevé, contrôle faible), immobilisations incorporelles (jugement de la direction), achats-fournisseurs (exhaustivité des charges). <b>Procédures allégées :</b> paie (contrôle satisfaisant) et trésorerie (confirmation bancaire et rapprochements).</p>
+<p><b>Cycles approfondis :</b> ventes (risque élevé, contrôle faible), immobilisations (jugement de la direction), achats (exhaustivité des charges). 
+    <b>Les autres cycles vont être soumis à des Procédures allégées </b> </p>
 </div></div>
 
 <h3>2.5 Tests d’audit sur des opérations comptables</h3>
-<p><b>Test A, cut-off des ventes : factures de fin décembre N</b></p>
+<p><b>Test A, Contrôle de la séparation des exercices (Cut-off des ventes)</b></p>
 <table>
 <tr><th>Facture</th><th>Client</th><th>Date</th><th class="n">Montant (M)</th><th>PV de recette</th></tr>
 <tr><td>F-1201</td><td>Collectivité territoriale</td><td>28/12/N</td><td class="n">0,25</td><td>12/01/N+1</td></tr>
@@ -188,7 +189,7 @@ Vente de matériel et équipements informatiques.</td></tr>
 <tr><td>F-1190</td><td>PME</td><td>20/12/N</td><td class="n">0,40</td><td>22/12/N</td></tr>
 <tr><td>F-1195</td><td>PME</td><td>23/12/N</td><td class="n">0,30</td><td>29/12/N</td></tr>
 </table>
-<p><b>Test B, frais de développement activés en N (production immobilisée : 2,5 M)</b></p>
+<p><b>Test B, Vérification des frais de développement immobilisés</b></p>
 <table>
 <tr><th>Projet</th><th class="n">Coût activé (M)</th><th>Situation à la clôture</th></tr>
 <tr><td>P1 – Module de gestion communale</td><td class="n">0,9</td><td>En cours, faisabilité et financement démontrés</td></tr>
@@ -196,7 +197,7 @@ Vente de matériel et équipements informatiques.</td></tr>
 <tr><td>P3 – Module de paiement mobile</td><td class="n">0,5</td><td>Abandonné en octobre N</td></tr>
 <tr><td>P4 – Plateforme de veille sectorielle</td><td class="n">0,4</td><td>Abandonnée en décembre N (étude de marché négative)</td></tr>
 </table>
-<p><b>Test C, créances clients et charges</b></p>
+<p><b>Test C, Vérification des créances clients et des charges</b></p>
 <table>
 <tr><th>Élément</th><th class="n">Montant (M)</th><th>Constat</th></tr>
 <tr><td>Client F (société privée)</td><td class="n">0,30</td><td>Facturé depuis plus de 12 mois, redressement judiciaire ouvert en novembre N, aucune provision</td></tr>
@@ -207,7 +208,7 @@ Vente de matériel et équipements informatiques.</td></tr>
 <div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
 <ul>
 <li><b>A, cut-off :</b> F-1201, F-1203 et F-1207 sont facturées en N mais recettées en N+1 : <span class="bad">0,25 + 0,15 + 0,20 = 0,60 M</span> de produits comptabilisés trop tôt. Chiffre d’affaires et résultat surévalués, passif circulant sous-évalué.</li>
-<li><b>B, développement :</b> P3 et P4 sont abandonnés, donc ne remplissent plus les critères d’activation : <span class="bad">0,5 + 0,4 = 0,90 M</span> à passer en charges. Actif immobilisé et résultat surévalués.</li>
+<li><b>B, frais de développement immobilisés :</b> P3 et P4 sont abandonnés, donc ne remplissent plus les critères d’activation : <span class="bad">0,5 + 0,4 = 0,90 M</span> à passer en charges. Actif immobilisé et résultat surévalués.</li>
 <li><b>C, créances :</b> le Client F est douteux sans provision : <span class="bad">0,30 M</span> de créance surévaluée. Le client G n’appelle aucune provision.</li>
 <li><b>C, charges :</b> la facture d’hébergement du 4e trimestre est omise : <span class="bad">0,015 M</span> de charges et de dettes manquantes.</li></ul>
 </div></div>
@@ -235,7 +236,7 @@ Vente de matériel et équipements informatiques.</td></tr>
 <tr><td>A3</td><td>6196 Dotations d’exploitation aux provisions pour dépréciation de l’actif circulant</td><td>3942 Provisions pour dépréciation des clients</td><td class="n">0,30</td></tr>
 <tr><td>A4</td><td>612 Charges externes (hébergement)</td><td>4417 Fournisseurs, factures non parvenues</td><td class="n">0,015</td></tr>
 </table>
-<p class="note">Numéros de comptes à vérifier avec votre plan comptable. Montants avant effet fiscal.</p>
+
 <h3>Incidence des anomalies non corrigées (A2 + A3 = 1,2 M)</h3>
 <table>
 <tr><th>Agrégat</th><th class="n">Publié (M)</th><th class="n">Si corrigé (M)</th><th class="n">Écart</th></tr>
@@ -245,7 +246,7 @@ Vente de matériel et équipements informatiques.</td></tr>
 <tr><td>Capitaux propres</td><td class="n">20,0</td><td class="n">18,8</td><td class="n">-6,0 %</td></tr>
 <tr><td>Résultat net</td><td class="n">3,0</td><td class="n">1,8</td><td class="n">-40 %</td></tr>
 </table>
-<p>1,2 M = <b>trois fois le seuil</b> et 3 % du chiffre d’affaires. L’effet touche deux rubriques seulement, sans rendre le résultat négatif : il est significatif mais non diffus. Les ajustements acceptés (A1, A4) ramènent déjà le résultat net à environ 2,4 M, de sorte que 1,2 M pèse alors 50 % du résultat ajusté.</p>
+<p>1,2 M = <b>trois fois le seuil</b> et 3 % du chiffre d’affaires. L’effet touche deux rubriques seulement, sans rendre le résultat négatif : <b>>l est significatif mais non diffus</b>. Les ajustements acceptés (A1, A4) ramènent déjà le résultat net à environ 2,4 M, de sorte que 1,2 M pèse alors 50 % du résultat ajusté.</p>
 </div></div>
 </section>
 
@@ -253,11 +254,11 @@ Vente de matériel et équipements informatiques.</td></tr>
 <h2>4. Formulation de l’opinion d’audit</h2>
 <p class="sub">Quatre opinions possibles, une seule adaptée au cas.</p>
 <table>
-<tr><th>Opinion (terme marocain)</th><th>Quand l’émettre ?</th></tr>
-<tr><td>Opinion sans réserve (certification sans réserve)</td><td>Aucune anomalie significative non corrigée.</td></tr>
-<tr><td>Opinion avec réserve (certification avec réserve)</td><td>Anomalie significative mais non diffuse, ou limitation significative mais non diffuse.</td></tr>
-<tr><td>Opinion défavorable (refus de certifier)</td><td>Anomalies significatives et diffuses.</td></tr>
-<tr><td>Impossibilité d’exprimer une opinion (impossibilité de certifier)</td><td>Éléments probants insuffisants, effets possibles significatifs et diffus.</td></tr>
+<tr><th>Opinion </th><th>Quand l’émettre ?</th></tr>
+<tr><td>Opinion sans réserve </td><td>Aucune anomalie significative non corrigée.</td></tr>
+<tr><td>Opinion avec réserve</td><td>Anomalie significative mais non diffuse.</td></tr>
+<tr><td>Opinion défavorable </td><td>Anomalies significatives et diffuses.</td></tr>
+<tr><td>Impossibilité d’exprimer une opinion</td><td>Éléments probants insuffisants, effets possibles significatifs et diffus.</td></tr>
 </table>
 <div class="q"><p>Quelle opinion retenez-vous pour Orientech ? Justifiez, puis rédigez le fondement de l’opinion. Que changerait chaque scénario alternatif ?</p></div>
 <div class="sol"><button class="rv" type="button">Voir la solution</button><div class="sb">
@@ -272,7 +273,7 @@ Vente de matériel et équipements informatiques.</td></tr>
 <tr><th>Scénario alternatif</th><th>Opinion</th></tr>
 <tr><td>La direction corrige aussi A2 et A3</td><td class="ok">Sans réserve</td></tr>
 <tr><td>Anomalies de 6 M réparties sur la plupart des rubriques</td><td class="bad">Défavorable</td></tr>
-<tr><td>Feuilles de temps et dossiers de projets refusés à l’auditeur, effets potentiels diffus</td><td class="bad">Impossibilité d’exprimer une opinion</td></tr>
+<tr><td>Feuilles de temps et dossiers de projets refusés à l’auditeur.</td><td class="bad">Impossibilité d’exprimer une opinion</td></tr>
 </table>
 </div></div>
 </section>
@@ -287,7 +288,6 @@ Vente de matériel et équipements informatiques.</td></tr>
 </div></div>
 </section>
 </div>
-<footer>Cas fictif à usage pédagogique. Orientech SA n’existe pas.</footer>
 <script>
 function basculer(s,v){
  s.classList.toggle('open',v);
